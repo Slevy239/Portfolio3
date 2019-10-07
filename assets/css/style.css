@@ -43,7 +43,7 @@ a {
 }
 
 li#navlink {
-    padding-top: 35px;
+    padding-top: 15px;
     font-size: 20px;
     color: black;
 }
@@ -55,7 +55,13 @@ li#navlink {
     
 }
 
-a#navtext:hover, a#topnav-links:hover{
+a#navtext:hover, a#topnav-links:hover, i#topnav-links:hover {
+    color: red;
+}
+#dl {
+    color: white;
+}
+#dl:hover{
     color: red;
 }
  a#navtext {
