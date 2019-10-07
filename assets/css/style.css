@@ -17,12 +17,20 @@
 }
 
 div#sidenav {
-    background-color: #383d3e;
+    /* background-color: #383d3e; */
     text-align: center;
+}
+p#homeEmail {
+    color: white;
 }
 
 body {
-    background-color: #7e4e60
+    /* background-color: #7e4e60; */
+    font-family: DejaVu Sans Mono, monospace;
+    /* background-image: url(../images/john-westrock-g1NR2UZjjws-unsplash.jpg); */
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(215,21,58,1) 100%);
+
 }
 
 a {
@@ -37,27 +45,44 @@ a {
 li#navlink {
     padding-top: 35px;
     font-size: 20px;
+    color: black;
 }
 .card-title {
     font-size: 30px;
     text-align: center;
     padding-top: 15px;
+    border-bottom: 1px solid white;
+    
 }
 
-a:hover{
-    color: orange;
+a#navtext:hover, a#topnav-links:hover{
+    color: red;
 }
- #navtext {
-    color: #e71d36;
+ a#navtext {
+    /* color: #e71d36; */
     text-align: center;
+    color: white
 
 }
 #navbar-text {
     color: #E71D36
 }
 
-footer{
+div#input {
+    margin-top: 7%;
+    border: solid 1px black;
+    background-color: #383d3e;
+}
 
+button#submit{
+    background-color: #e71d36;
+}
+.col.s6, .col.s12 {
+    color: #e71d36;
+    padding-top:25px;
+}
+img {
+    height: 300px;  
 }
 
 

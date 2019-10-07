@@ -1,14 +1,45 @@
+// Your web app's Firebase configuration
+var firebaseConfig = {
+  apiKey: "AIzaSyBzT9Ll9BfZ3ZSOUCm1WKvXVMF9CPKtCjc",
+  authDomain: "portfolio-a089f.firebaseapp.com",
+  databaseURL: "https://portfolio-a089f.firebaseio.com",
+  projectId: "portfolio-a089f",
+  storageBucket: "",
+  messagingSenderId: "617932475716",
+  appId: "1:617932475716:web:85b094abcd8664d069db11"
+};
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
 
 
-// SIDEBAR
-$(document).ready(function(){
-    $('.button-collapse').sideNav({
-        menuWidth: 300, // Default is 300
-        edge: 'left', // Choose the horizontal origin
-        closeOnClick: false, // Closes side-nav on <a> clicks, useful for Angular/Meteor
-        draggable: true // Choose whether you can drag to open on touch screens
-      }
-    );
-    // START OPEN
-    $('.button-collapse').sideNav('show');
-  });
+var database = firebase.database();
+
+$("#submit").on("click", function (event) {
+  event.preventDefault();
+
+  var first = $("#first").val().trim();
+  var last = $("#last").val().trim();
+  var email = $("#email").val().trim();
+  var comment = $("#comment").val().trim();
+  var time = moment().format('LLL'); 
+
+  var newInput = {
+    newFirst: first,
+    newLast: last,
+    newEmail: email,
+    newComment: comment,
+    inputTime: time,
+  };
+
+  database.ref().push(newInput);
+
+  alert("Thank you for your input!");
+
+
+  $("#first").val("");
+  $("#last").val("");
+  $("#email").val("");
+  $("#comment ").val("");
+
+})
+
