@@ -1,14 +1,63 @@
+.nav-wrapper{
+    background-color: #090C08
+}
+#sidenav {
+    /* background-color: #383d3e; */
+    height: 100%
+}
+.card-title {
+    font-size: 27px;
+}
+.card-content {
+    text-align: center;
+}
+.card-action {
+    text-align: center;
+    color: #E71D36
+}
+
+div#sidenav {
+    background-color: #383d3e;
+    text-align: center;
+}
+
 body {
-    background-image: url(../images/hotel-wallpaper-black.png)
+    background-color: #7e4e60
 }
-.jumbotron {
-    background-color: white
+
+a {
+    /* background-color: #383d3e; */
+    color: #E71D36
 }
-#bio {
-    color: white
+
+#navlink {
+    border-bottom   : 1px solid black;
+}
+
+li#navlink {
+    padding-top: 35px;
+    font-size: 20px;
+}
+.card-title {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+a:hover{
+    color: orange;
+}
+ #navtext {
+    color: #e71d36;
+    text-align: center;
+
+}
+#navbar-text {
+    color: #E71D36
+}
+
+footer{
 
 }
 
-h6 {
-    color: white;
-}
+
