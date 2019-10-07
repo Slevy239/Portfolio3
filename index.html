@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,24 +14,27 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="../Porfolio3/assets/css/style.css">
 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
 </head>
 
 <body>
 
-    <nav>
-        <div class="nav-wrapper">
-            <div id="navbar-text">
-                <a href="./index.html" class="brand-logo center" id="topnav-links"><i
-                        class="material-icons">home</i></a>
-                <ul class="left hide-on-med-and-down">
-                    <li><a href="./contact.html"><i class="material-icons" id="topnav-links">contact_mail</i></a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    <div class="jumbotron" id="homeJumbo">
+        <nav class="navbar">
+            <a href="./index.html" class="brand-logo center" id="topnav-home"><i class="material-icons">home</i></a>
 
-    <div class="row center">
-        <h2>Sam Levy</h2>
+            <a href="./contact.html" class="brand-logo left" id="topnav-contact"><i
+                    class="material-icons">contact_mail</i></a>
+
+        </nav>
+    </div>
+
+    <div class="row">
+        <h2 id="myName" class="col">Sam Levy</h2>
     </div>
 
     <div class="row">
@@ -55,7 +59,7 @@
             <div class="card">
                 <div class="card-image">
                     <!-- <img src="./assets/images/linkedin.jfif"> -->
-                    <img src="./assets/images/hotel-wallpaper-black.png">
+                    <img src="./assets/images/hotel-wallpaper-black.png" class="responsive-img">
                 </div>
                 <div class="card-content">
                     <p>I am currently working through The University of Pennsylvania's Coding Bootcamp.</p>
@@ -72,22 +76,17 @@
             <div class="card-title">Contact</div>
             <div class="card-content">
                 <ul id="navtext">
-                    <li id="navlink">Cell Phone:<p id="homeEmail">610-420-9311</p></li>
-                    <li id="navlink">Email: <p id="homeEmail">Slevy239@gmail.com</p></li>
-                    <li id="navlink">Resume: <a href="./assets/files/resume.pdf" download="resume"><p id="dl">Download</p</a></li>
-
+                    <li id="navlink">Cell Phone:<p id="homeEmail">610-420-9311</p>
+                    </li>
+                    <li id="navlink">Email: <p id="homeEmail">Slevy239@gmail.com</p>
+                    </li>
+                    <li id="navlink">Resume: <a href="./assets/files/resume.pdf" download="resume">
+                            <p id="dl">Download</p>
+                        </a></li>
                 </ul>
             </div>
         </div>
-
-
-
-
     </div>
-
-
-
-
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>

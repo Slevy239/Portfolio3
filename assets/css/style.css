@@ -1,16 +1,24 @@
-.nav-wrapper{
-    background-color: #090C08
+.jumbotron , nav{
+    background-color: black !important;
+    height: 70px;
 }
+#contactJumbo, nav {
+    height: 70px;
+}
+
 #sidenav {
     /* background-color: #383d3e; */
     height: 100%
 }
+
 .card-title {
     font-size: 27px;
 }
+
 .card-content {
     text-align: center;
 }
+
 .card-action {
     text-align: center;
     color: #E71D36
@@ -20,17 +28,21 @@ div#sidenav {
     /* background-color: #383d3e; */
     text-align: center;
 }
+
 p#homeEmail {
     color: white;
+}
+
+#myName{
+    text-align: center;
 }
 
 body {
     /* background-color: #7e4e60; */
     font-family: DejaVu Sans Mono, monospace;
     /* background-image: url(../images/john-westrock-g1NR2UZjjws-unsplash.jpg); */
-    background: rgb(63,94,251);
-    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(215,21,58,1) 100%);
-
+    background: rgb(63, 94, 251);
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(215, 21, 58, 1) 100%);
 }
 
 a {
@@ -39,7 +51,7 @@ a {
 }
 
 #navlink {
-    border-bottom   : 1px solid black;
+    border-bottom: 1px solid black;
 }
 
 li#navlink {
@@ -47,29 +59,32 @@ li#navlink {
     font-size: 20px;
     color: black;
 }
+
 .card-title {
     font-size: 30px;
     text-align: center;
     padding-top: 15px;
     border-bottom: 1px solid white;
-    
 }
 
 a#navtext:hover, a#topnav-links:hover, i#topnav-links:hover {
     color: red;
 }
+
 #dl {
     color: white;
 }
-#dl:hover{
+
+#dl:hover {
     color: red;
 }
- a#navtext {
+
+a#navtext {
     /* color: #e71d36; */
     text-align: center;
     color: white
-
 }
+
 #navbar-text {
     color: #E71D36
 }
@@ -80,15 +95,15 @@ div#input {
     background-color: #383d3e;
 }
 
-button#submit{
+button#submit {
     background-color: #e71d36;
 }
+
 .col.s6, .col.s12 {
     color: #e71d36;
-    padding-top:25px;
+    padding-top: 25px;
 }
+
 img {
-    height: 300px;  
+    height: 300px;
 }
-
-

@@ -21,7 +21,7 @@ $("#submit").on("click", function (event) {
   var last = $("#last").val().trim();
   var email = $("#email").val().trim();
   var comment = $("#comment").val().trim();
-  var time = moment().format('LLL'); 
+  var time = moment().format('LLL');
 
   var newInput = {
     newFirst: first,
@@ -40,18 +40,19 @@ $("#submit").on("click", function (event) {
   } else if (comment === "") {
     alert("Please enter a Comment or Question!")
   } else {
-    alert("Thank you for your input!");
-
+    // alert("Thank you for your input!");
+    $("#input").html("Thank You for your input!")
   }
 
   database.ref().push(newInput);
 
 
 
-  $("#first").val("");
-  $("#last").val("");
-  $("#email").val("");
-  $("#comment ").val("");
+  // $("#first").val("");
+  // $("#last").val("");
+  // $("#email").val("");
+  // $("#comment ").val("");
+
 
 })
 
