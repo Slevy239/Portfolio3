@@ -31,9 +31,21 @@ $("#submit").on("click", function (event) {
     inputTime: time,
   };
 
+  if (first === "") {
+    alert("Please enter your name!")
+  } else if (last === "") {
+    alert("Please enter your last name!")
+  } else if (email === "") {
+    alert("Please enter your email!")
+  } else if (comment === "") {
+    alert("Please enter a Comment or Question!")
+  } else {
+    alert("Thank you for your input!");
+
+  }
+
   database.ref().push(newInput);
 
-  alert("Thank you for your input!");
 
 
   $("#first").val("");
