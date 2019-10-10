@@ -760,7 +760,7 @@ footer {
     }
 }
 
-@media only screen and (max-width: 768px) {
+/* @media only screen and (max-width: 768px) {
     header {
         position: fixed;
         display: none;
@@ -827,7 +827,7 @@ footer {
         font-size: 0.9em;
         padding: 5px 10px
     }
-}
+} */
 
 .carousel-caption {
     color: white;
