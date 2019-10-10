@@ -1,7 +1,7 @@
 console.log("carosel")
   // Activate Carousel
   $("#myCarousel").carousel({
-    interval: 10000
+    interval: 5 * 1000
   });
   
   // Enable Carousel Indicators
