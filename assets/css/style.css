@@ -255,7 +255,7 @@ footer {
     height: 100vh;
     min-height: 500px;
     max-height: 1080px;
-    background: url(../images/lead-bg.jpg);
+    background: url(../../assets/images/lead-bg.jpg);
     background-size: cover;
     padding: 15px;
     overflow: hidden
@@ -622,6 +622,10 @@ footer {
     transition: .5s ease all
 }
 
+#contact-form input {
+    width: 96%;
+}
+
 #contact-form input::-webkit-input-placeholder, #contact-form textarea::-webkit-input-placeholder {
     color: #fff
 }
@@ -823,4 +827,9 @@ footer {
         font-size: 0.9em;
         padding: 5px 10px
     }
+}
+
+.carousel-caption {
+    color: white;
+    background-color: #3498db;
 }
