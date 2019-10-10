@@ -1,4 +1,3 @@
-console.log("carosel")
   // Activate Carousel
   $("#myCarousel").carousel({
     interval: 5 * 1000
